@@ -1,0 +1,121 @@
+/* the main image */
+.image-text-centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-right: 15px ;
+    padding-bottom: 15px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    color:white;
+    font-size: 6.2vw;
+    border: 5px solid black;
+    font-family: 'damion' ,Georgia, 'Times New Roman', Times, serif;
+}
+.mainImageNow
+{
+    width: 100%;
+    height: 52.1vw;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.container
+{
+    position: relative;
+    margin-top: -7.8px;
+    background-color: gray;
+    max-width: 100%;
+
+}
+
+/* headers and subheading */
+.heading
+{
+    float: none !important;
+    text-align: center;
+    font-size: 400%;
+    text-decoration: underline;
+    font-family: 'damion' ,Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading-desc
+{
+    text-align: center;
+    font-size: 150%;
+}
+
+
+/* Dealing w/ Cards */
+
+.body
+{
+    position: relative;
+    width: 95% !important;
+    left: 2.5%;
+}
+.card:hover
+{
+    border: thin solid black;
+}
+
+/* Contact Boxes */
+
+#inputBoxes{
+    float: left;
+    margin-left: 30%
+}
+#subResBtn
+{
+    display: flex;
+    float: right;
+    padding-top: 8%
+}
+fieldset {
+    margin: 0px auto;
+    text-align: center;
+    width: 75%;
+    font-size: 100%;
+    border: 2px black solid;
+    padding: 15px;
+}
+
+label {
+    display: block;
+    float: left;
+    clear: left;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 180px;
+    text-align: right;
+}
+
+textarea {
+    width: 75%;
+    height: 100px;
+}
+
+form#payment input,
+form #payment select {
+    display: block;
+    float: left;
+}
+
+.input-btn
+{
+    float: right !important;
+}
+
+#fullN, #fullE, #fullSource
+{
+    text-align: center;
+}
+
+#name, #email, #source, #FirstN , #LastN, #Email, #Heard
+{
+    display: inline-flex;
+    left: 30%;
+}

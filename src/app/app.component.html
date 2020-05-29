@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+</head>
+
+<body>
+  <div class="top-section">
+    <nav class="navbar justify-content-left">
+      <a class="nav-brand nav-link nav-item" [routerLink]="['/home']" id="title" style="text-align:left;">David's Blog</a>
+      <ul class="nav nav-text">
+        <li class="nav">
+          <a class="nav-link" [routerLink]="['/home']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/portfolio']">Blog Post</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/portfolio']">Portfolio</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <router-outlet></router-outlet>
+  <footer>&copy;David's Blog, Springfield MO</footer>
+</body>
+
+</html>
+

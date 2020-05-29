@@ -1,0 +1,98 @@
+{
+    "blog_posts": [
+        {
+            "id": 0,
+            "title": "Who I am",
+            "main_img": "assets/img/backCabin.jpg",
+            "summary": "About Who I am",
+            "story_images":[
+                {
+                    "img_src":null
+                },
+                {
+                    "img_src":null
+                }
+            ],
+            "story":[
+                {
+                    "paragraph":"My name is David Niculcea"
+                },
+                {
+                    "paragraph": "This will be where I insert some little parts of my life. For anyone wondering who I am or what I'm currently doing. I'm currently in college Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci voluptatem quo asperiores atque sint quibusdam, ratione eligendi ab animi rerum. Fugiat libero sint porro quas nobis voluptate quis? Perspiciatis, eius. lor"
+                }
+            ],
+            "realease_date": "03/02/20"
+        },
+        {
+            "id": 1,
+            "title": "Who I am",
+            "main_img": "assets/img/backCabin.jpg",
+            "summary": "About Who I am",
+            "story_images":[
+                {
+                    "img_src":null
+                },
+                {
+                    "img_src":null
+                }
+            ],
+            "story":[
+                {
+                    "paragraph":"My name is David Niculcea"
+                },
+                {
+                    "paragraph": "This will be where I insert some little parts of my life. For anyone wondering who I am or what I'm currently doing. I'm currently in college Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci voluptatem quo asperiores atque sint quibusdam, ratione eligendi ab animi rerum. Fugiat libero sint porro quas nobis voluptate quis? Perspiciatis, eius. lor"
+                }
+            ],
+            "realease_date": "03/02/20"
+        },
+        {
+            "id": 2,
+            "title": "Who I am",
+            "main_img": "assets/img/backCabin.jpg",
+            "summary": "About Who I am",
+            "story_images":[
+                {
+                    "img_src":null
+                },
+                {
+                    "img_src":null
+                }
+            ],
+            "story":[
+                {
+                    "paragraph":"My name is David Niculcea"
+                },
+                {
+                    "paragraph": "This will be where I insert some little parts of my life. For anyone wondering who I am or what I'm currently doing. I'm currently in college Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci voluptatem quo asperiores atque sint quibusdam, ratione eligendi ab animi rerum. Fugiat libero sint porro quas nobis voluptate quis? Perspiciatis, eius. lor"
+                }
+            ],
+            "realease_date": "03/02/20"
+        },
+        {
+            "id": 3,
+            "title": "Who I am",
+            "main_img": "assets/img/backCabin.jpg",
+            "summary": "About Who I am",
+            "story_images":[
+                {
+                    "img_src":null
+                },
+                {
+                    "img_src":null
+                }
+            ],
+            "story":[
+                {
+                    "paragraph":"My name is David Niculcea"
+                },
+                {
+                    "paragraph": "This will be where I insert some little parts of my life. For anyone wondering who I am or what I'm currently doing. I'm currently in college Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci voluptatem quo asperiores atque sint quibusdam, ratione eligendi ab animi rerum. Fugiat libero sint porro quas nobis voluptate quis? Perspiciatis, eius. lor"
+                }
+            ],
+            "realease_date": "03/02/20"
+        }
+        
+        
+    ]
+}

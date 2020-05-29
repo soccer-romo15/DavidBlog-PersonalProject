@@ -1,0 +1,116 @@
+<section>
+    <div class="container p-3  bg-dark text-white">
+        <img class="mx-auto d-block mainImageNow" [src]="img" [alt]="img">
+        <h3 class="image-text-centered">{{image_text}}</h3>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h1 class="heading">
+            About Me
+        </h1>
+        <p class="heading-desc">
+            These are the three top things that I think you should know about me before reading
+            up on the rest of my stories.
+        </p>
+    </div>
+    <div class="blog-body">
+        <div class="card-deck justify-content-center">
+            <div class="card">
+                <img [src]="'assets/img/sunsetPic.jpeg'" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <p class="card-text">{{summary}}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{dateReleased}}</small>
+                </div>
+            </div>
+            <div class="card">
+                <img [src]="'assets/img/familyPic.jpeg'" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Family</h5>
+                    <p class="card-text">I also have a pretty large family. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.
+                        Et vero quos aliquam incidunt ex autem unde molestiae?
+                        Maxime, nesciunt ipsum magni repellat ratione recusandae velit temporibus ut omnis consequuntur
+                        architecto.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat atque deleniti impedit odit
+                        aspernatur
+                        repellat eum, ullam dolore. Cumque, culpa?
+                        Nemo debitis numquam architecto similique doloribus, sapiente ex consectetur reiciendis.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img [src]="'assets/img/inCabin.png'" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Interest</h5>
+                    <p class="card-text">These are some of my project that I have worked on and accomplished.</p>
+                    <a [routerLink]="['/portfolio']">Portfolio</a>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="subscription">
+        <div class="subPage" id="subcribe">
+            <div>
+                <h1 class="heading">Subcribe</h1>
+                <form id="payment" action="index.html" method="post">
+                    <fieldset>
+                        <legend>Your Contact Info</legend>
+                        <div id="inputBoxes">
+                            <label id="firstBox" for="fName">First Name</label>
+                            <input id="fName" type="text" name="fName" required>
+                            <label id="lastBox" for="lName">Last Name </label>
+                            <input id="lName" name="lName" type="text" required>
+                            <label for="emailA">Email Address</label>
+                            <input id="emailA" type="text" name="emailA" required>
+                            <label for="fromWho" class="heardList">How'd you hear about us?</label>
+                            <input id="fromWho" type="text" name="heardUs" list="heardUs">
+                        </div>
+                        <div id="subResBtn">
+                            <input class="input-btn" id="resetButton" type="reset" name="redo" onclick="">
+                             <input class="input-btn submit-btn" type=button value='Submit' > <!--(click)="changeMe()" -->
+                        </div>
+                    </fieldset>
+                </form>
+                <datalist id="heardUs">
+                    <option value="Family"></option>
+                    <option value="Friends"></option>
+                    <option value="Work"></option>
+                    <option value="Newspaper"></option>
+                    <option value="Advertisments"></option>
+                </datalist>
+            </div>
+    
+            <div id="personalInfo">
+                <div id="fullN">
+                    <h5 id="name"> Name: </h5>
+                    <p id="FirstN"></p>
+                    <p id="LastN"></p>
+                </div>
+                <p></p>
+                <div id="fullE">
+                    <h5 id="email"> Email:</h5>
+                    <p id="Email"></p>
+                </div>
+                <p></p>
+                <div id="fullSource">
+                    <h5 id="source"> Best Source Ever: </h5>
+                    <p id="Heard"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
